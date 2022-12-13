@@ -959,7 +959,7 @@ ol:not([class]) li ul {
   pointer-events: none
 }
 .preloader-logo {
-  width: 150px;
+  width: 90px;
   overflow: hidden
 }
 .underline-animation {
