@@ -187,8 +187,9 @@ window.addEventListener("preload:hide", () => {
 function fullPageScroll() {
   new fullpage(".js-fullpage", {
     navigation: true,
-    scrollOverflow: true,
+    scrollOverflow: false,
     scrollingSpeed: 600,
+    responsiveHeight: 800,
     licenseKey: "11473CB7-47134B2C-8C004205-B3837020",
     afterLoad: function (origin) {
       origin.item

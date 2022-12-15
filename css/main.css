@@ -959,7 +959,7 @@ ol:not([class]) li ul {
   pointer-events: none
 }
 .preloader-logo {
-  width: 90px;
+  width: 150px;
   overflow: hidden
 }
 .underline-animation {
@@ -1298,7 +1298,7 @@ ol:not([class]) li ul {
   right: 0
 }
 @media only screen and (max-width:768px) {
-  .section-video video {
+  .section-video {
     display: none
   }
 }
@@ -1500,7 +1500,8 @@ ol:not([class]) li ul {
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    row-gap: 1rem
+    row-gap: 1rem;
+    margin-bottom: 1rem
   }
 }
 .portfolio__inner {
@@ -1550,6 +1551,11 @@ ol:not([class]) li ul {
   overflow: hidden;
   padding: 0 30px
 }
+@media only screen and (max-width:768px) {
+  .portfolio__inner .description {
+    top: 40%
+  }
+}
 .portfolio__inner:hover {
   border: 1px solid rgba(255,255,255,.19)
 }
@@ -1583,9 +1589,9 @@ ol:not([class]) li ul {
   height: 257px;
   width: 100%
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:450px) {
   .portfolio__item {
-    max-height: 190px
+    max-height: 160px
   }
 }
 .careers-content {
